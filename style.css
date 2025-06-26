@@ -147,6 +147,44 @@ input.check-complete{
     text-decoration: line-through;
 }
 
+@media screen and (max-width: 768px) {
+  .page-title {
+    font-size: 50px;
+}
 
+.overview-section {
+  max-width: 460px;
+}
 
+.add-goal {
+  padding: 14px;
+  margin-top: 26px;
+  height: 70px;
+}
+}
+
+@media screen and (max-width: 520px) {
+  .page-title {
+    font-size: 30px;
+}
+.overview-section {
+  max-width: 310px;
+}
+
+.day-status > p
+ {
+    font-size: 28px;
+}
+
+.add-goal {
+  padding: 10px;
+  margin-top: 22px;
+  height: 60px;
+}
+
+.icon-wrapper {
+  width: 20px;
+  height: 20px;
+}
+}
 
